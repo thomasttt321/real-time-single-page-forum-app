@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reply extends Model
 {
+
+    protected $quarded = []; // is equal to null
     // relationships on our Reply model
 
     // reply belongsTo question

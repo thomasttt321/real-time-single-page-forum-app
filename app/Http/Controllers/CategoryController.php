@@ -59,7 +59,7 @@ class CategoryController extends Controller
      * @param  \App\Model\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category)  // note route model binding api/category/{category} - being the id 
+    public function show(Category $category){ // note route model binding api/category/{category} - being the id 
         // to show a single category
 
         return $category; // and this will return single record 
